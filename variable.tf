@@ -9,13 +9,13 @@ variable "env" {
 variable "resource_group_name" {
   description = "COSMODDB Project resource Group"
   type        = string
-  default = "baaabu"
+  default = "cosmos-db"
 
 }
 variable "location" {
   description = "Short COSMOSDB location name i.e West Europe."
   type        = string
-  default = "eastus"
+  default = "East US"
 }
 variable "tags" {
   description = "Tags to associate with your COSMOSDB"
